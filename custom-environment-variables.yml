@@ -1,0 +1,10 @@
+# node-config maps these environment variables onto Juice Shop's config at boot.
+# Unset or empty variables are ignored, so the profile chosen by NODE_ENV wins.
+server:
+  baseUrl: BASE_URL
+application:
+  chatBot:
+    llmApiUrl: LLM_API_URL
+    model: LLM_MODEL
+challenges:
+  safetyMode: SAFETY_MODE
